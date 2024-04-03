@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Contador em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um simples contador construído com React. Ele permite ao usuário incrementar, decrementar ou resetar o valor do contador com cliques nos botões correspondentes.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- React
+- HTML
+- CSS
+- JavaScript
 
-### `npm start`
+## Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para rodar este projeto localmente, você precisará ter instalado:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (incluindo NPM)
 
-### `npm test`
+## Como Rodar o Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Siga estas etapas para rodar o projeto em seu computador:
 
-### `npm run build`
+1. **Clonar o Repositório**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   Primeiro, clone o repositório para sua máquina local usando `git`:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Instalar Dependências**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navegue até a pasta do projeto clonado e instale as dependências necessárias:
 
-### `npm run eject`
+3. **Iniciar o Projeto**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Isso abrirá o projeto em `http://localhost:3000` no seu navegador padrão.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Estrutura do Projeto
 
-## Learn More
+O projeto é estruturado da seguinte maneira:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `src/App.js`: Contém a lógica principal do contador.
+- `src/App.css`: Arquivo de estilos para o componente `App`.
+- `src/index.js`: Ponto de entrada do React. Renderiza o componente `App`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contribuindo
 
-### Code Splitting
+Estamos abertos a contribuições! Se você tem ideias para melhorar o projeto ou encontrou um bug, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licença
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
