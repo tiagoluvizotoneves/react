@@ -48,4 +48,4 @@ Estamos abertos a contribuições! Se você tem ideias para melhorar o projeto o
 
 ## Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está sob a licença GNU GENERAL PUBLIC LICENSE. Veja o arquivo `LICENSE` para mais detalhes.
